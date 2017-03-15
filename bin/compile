@@ -10,8 +10,6 @@ echo -e "Using Pac-12 fork of https://github.com/ddollar/heroku-buildpack-multi"
 echo "at https://github.com/pac12/heroku-buildpack-multi"
 echo -e
 
-[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
-
 function indent() {
   c='s/^/       /'
   case $(uname) in
